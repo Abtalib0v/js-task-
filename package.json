@@ -1,0 +1,19 @@
+{
+  "name": "task100",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "font-awesome": "^4.7.0",
+    "remixicon": "^4.6.0"
+  }
+}
