@@ -161,6 +161,12 @@
                 }
             }
         }
+        @media (max-width:768px) {
+            .left_sidebar {
+                display: none;
+            }
+            
+        }
 
         .pro_right {
             .pro_start {
@@ -272,11 +278,17 @@
 
 
             }
+            @media (max-width:768px) {
+                .pro_start {
+                    display: none;
+                }
+                
+            }
 
             #pro {
                 display: grid;
                 grid-template-columns: repeat(4, minmax(0, 1fr));
-
+                
                 .cards {
                     position: relative;
                     font-size: 14px;
@@ -394,6 +406,25 @@
                 }
 
 
+            }
+            @media (max-width:768px) {
+                #pro {
+                    display: grid;
+                    grid-template-columns: repeat(3, minmax(0, 1fr));
+                }
+                
+            }
+            @media (max-width:480px) {
+                #pro {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+                
+            }
+            @media (min-width:1200px) {
+                #pro {
+                    grid-template-columns: repeat(5, minmax(0, 1fr));
+                }
+                
             }
         }
 
