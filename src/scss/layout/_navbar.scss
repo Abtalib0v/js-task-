@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 nav {
-    padding: 25px 100px;
+
 
     .navbar {
+        padding: 25px 100px;
+        display: flex;
+        justify-content: space-between;
+
         .left {
             .logo {
                 width: 126px;
@@ -24,10 +30,15 @@ nav {
                     list-style: none;
                     color: inherit;
                     text-decoration: none;
-
+                    transition: 0.2s ease-in-out;
                     display: flex;
                     align-items: center;
                     padding-right: 5px;
+
+                    &:hover {
+                        color: rgba(222, 16, 16, 1);
+
+                    }
 
                     i {
                         font-size: 30px;
@@ -67,6 +78,7 @@ nav {
                         border: 0px;
                         background-color: transparent;
                         font-weight: 500;
+                        cursor: pointer;
                     }
 
                     .src_right {
@@ -122,6 +134,349 @@ nav {
                     top: 50%;
                     transform: translateY(-50%);
                 }
+            }
+
+        }
+
+        .right {
+            display: flex;
+            gap: 0 20px;
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+                margin-right: 10px;
+
+                .dropbtn {
+                    color: black;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: white;
+
+
+
+                }
+
+                .dropdown-content {
+                    transition: 0.2s ease-in-out;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    top: 67px;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                    height: 0px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        display: grid;
+                        justify-content: center;
+                        width: 100%;
+
+                        img {
+                            width: 18px;
+                            height: auto;
+                            margin-right: 6px;
+                        }
+                    }
+
+                    a:hover {
+                        color: rgba(222, 16, 16, 1);
+
+                    }
+
+                }
+            }
+
+
+
+            .dropdown:hover .dropdown-content {
+                height: 123px;
+                overflow: auto;
+                padding: 20px 0;
+            }
+
+            .dropdown:hover .dropbtn {
+                color: rgba(222, 16, 16, 1);
+
+            }
+
+            .dropdown-usd {
+                position: relative;
+                display: inline-block;
+
+                .dropbtn {
+                    color: black;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: white;
+
+
+
+                }
+
+                .dropdown-content {
+                    transition: 0.2s ease-in-out;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    top: 67px;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                    height: 0px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        display: grid;
+                        justify-content: center;
+                        width: 100%;
+
+                        img {
+                            width: 18px;
+                            height: auto;
+                            margin-right: 6px;
+                        }
+                    }
+
+                    a:hover {
+                        color: rgba(222, 16, 16, 1);
+
+                    }
+
+                }
+            }
+
+
+
+            .dropdown-usd:hover .dropdown-content {
+                height: 123px;
+                overflow: auto;
+                padding: 20px 0;
+            }
+
+            .dropdown-usd:hover .dropbtn {
+                color: rgba(222, 16, 16, 1);
+
+            }
+
+            .account {
+                list-style: none;
+                color: inherit;
+                text-decoration: none;
+                transition: 0.2s ease-in-out;
+                display: flex;
+                align-items: flex-end;
+
+                i {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-weight: 600;
+                }
+
+                &:hover {
+                    color: rgba(222, 16, 16, 1);
+
+                }
+            }
+
+            .like {
+                position: relative;
+                list-style: none;
+                color: inherit;
+                text-decoration: none;
+                transition: 0.2s ease-in-out;
+                display: flex;
+                align-items: flex-end;
+
+                i {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-weight: 600;
+                }
+
+                &:hover {
+                    color: rgba(222, 16, 16, 1);
+
+                }
+            }
+
+            .circle {
+                position: absolute;
+                right: -8px;
+                top: -2px;
+                width: 15px;
+                height: 15px;
+                font-size: 10px;
+                background-color: rgba(222, 16, 16, 1);
+                color: white;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                border-radius: 50%;
+            }
+
+            .shop {
+                position: relative;
+                list-style: none;
+                color: inherit;
+                text-decoration: none;
+                transition: 0.2s ease-in-out;
+                display: flex;
+                align-items: flex-end;
+
+                i {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-weight: 600;
+                }
+
+                &:hover {
+                    color: rgba(222, 16, 16, 1);
+
+                }
+            }
+
+
+
+        }
+    }
+
+    .navbar_bottom {
+        width: 100%;
+        border: 1px solid rgba(229, 229, 229, 1);
+
+        .category {
+            display: flex;
+            font-weight: 600;
+            gap: 30px;
+            font-family: "poppins";
+            font-size: 14px;
+
+            .category_left {
+                &:hover {
+                    color: rgba(222, 16, 16, 1);
+                }
+
+                span {
+                    cursor: pointer;
+                    transition: 0.2s ease-in-out;
+                    border-right: 1px solid rgba(229, 229, 229, 1);
+                    display: inline-block;
+                    padding: 12px 30px 12px 0;
+                    text-transform: uppercase;
+
+                }
+
+
+            }
+
+            .category_right {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                font-weight: 500;
+                color: #000000;
+
+                span {
+                    cursor: pointer;
+                    transition: 0.2s ease-in-out;
+
+                    svg {
+                        width: 19px;
+                    }
+
+                    &:hover {
+                        color: rgba(222, 16, 16, 1);
+                    }
+                }
+
+                .dropdown {
+                    position: relative;
+
+
+                    ul {
+                        margin: 0;
+                        cursor: pointer;
+                        background-color: white;
+                        font-weight: 500;
+                        padding: 0px;
+
+
+
+                    }
+
+                    .dropdown-content {
+                        position: absolute;
+                        background-color: #f9f9f9;
+                        padding: 0px 100px;
+                        margin: 0;
+                        width: 340px;
+                        height: 0px;
+                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                        height: 400px;
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        visibility: hidden;
+                        z-index: 2;
+
+                        li {
+                            cursor: pointer;
+                            color: black;
+                            text-decoration: none;
+                            display: grid;
+                            width: 100%;
+
+                            h6 {
+                                font-weight: 400;
+                                font-size: 15px;
+
+                            }
+
+                            img {
+                                width: 18px;
+                                height: auto;
+                                margin-right: 6px;
+                            }
+                        }
+
+                        li:hover {
+                            color: rgba(222, 16, 16, 1);
+
+                        }
+
+                    }
+                }
+
+                .dropdown:hover .dropdown-content {
+                    height: 400px;
+                    overflow: auto;
+                    padding: 53px 40px 40px 40px;
+                    visibility: visible;
+
+                }
+
+                .dropdown:hover ul {
+                    color: rgba(222, 16, 16, 1);
+
+                }
+
             }
 
         }

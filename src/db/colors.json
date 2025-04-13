@@ -1,0 +1,20 @@
+[
+    { "name": "Black", "value": "#000000", "count": 95 },
+    { "name": "Blue", "value": "#629fd1", "count": 11 },
+    { "name": "Brown", "value": "#A06C30", "count": 26 },
+    { "name": "Burgundy", "value": "#560403", "count": 1 },
+    { "name": "Cool Pink", "value": "#A93D54", "count": 95 },
+    { "name": "Deep Purple", "value": "#A21F44", "count": 11 },
+    { "name": "Gray", "value": "#E0E0E0", "count": 26 },
+    { "name": "Green", "value": "#25B14C", "count": 1 },
+    { "name": "Light Brown", "value": "#E0D3C3", "count": 95 },
+    { "name": "Navy", "value": "#292E4E", "count": 11 },
+    { "name": "Orange", "value": "#FF9E20", "count": 11 },
+    { "name": "Pink", "value": "#FFD1DC", "count": 11 },
+    { "name": "Purple", "value": "#B799B4", "count": 26 },
+    { "name": "Red", "value": "#CC0000", "count": 26 },
+    { "name": "Rosewood", "value": "#B7464D", "count": 1 },
+    { "name": "True Cotal", "value": "#BA4F4F", "count": 95 },
+    { "name": "White", "value": "#FFFFFF", "count": 11 },
+    { "name": "Yellow", "value": "#F2E576", "count": 11 }
+  ]

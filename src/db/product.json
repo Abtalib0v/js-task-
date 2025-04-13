@@ -1,0 +1,171 @@
+[
+    {
+      "id": 1,
+      "image": "/src/assets/fashion-5-300x300.jpg",
+      "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+      "price": "$148"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/fashion-5-300x300.jpg",
+      "title": "Adidas Originals Classic Shoes",
+      "price": "$119"
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 4,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 5,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 6,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 7,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 8,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 9,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 10,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 11,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 12,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 13,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 14,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 15,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 16,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 17,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 18,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 19,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 20,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 21,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 22,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 23,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 24,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 25,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 26,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      },
+      {
+        "id": 27,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Nike Air Max Unisex SYSTM Men Sneaker Shoes",
+        "price": "$148"
+      },
+      {
+        "id": 28,
+        "image": "/src/assets/fashion-5-300x300.jpg",
+        "title": "Adidas Originals Classic Shoes",
+        "price": "$119"
+      }
+  ]
+  
